@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environments
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data / plots generated while running experiments
+*.png
+*.jpg
+*.csv
+!data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
